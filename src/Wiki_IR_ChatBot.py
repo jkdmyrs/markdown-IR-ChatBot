@@ -1,26 +1,3 @@
-"""
-Wiki-IR-ChatBot
-by RAJKUMAR LAKSHMANAMOORTHY
-
-source code at https://github.com/RajkumarGalaxy/Wiki-IR-ChatBot
-more details at README.md in the repo 
-refer requirements.txt in the repo to meet the code needs
-
-
-This project builds an information retrieval (IR) chatbot 
-that can scrape Wikipedia using BeautifulSoup in the topic 
-of user's interest and collect information against user's queries 
-following a heuristic backed by TF-IDF score and cosine-similarity score. 
-This Wiki-IR-ChatBot is user-friendly in permitting users 
-to choose any topic and presenting either crisp and short response 
-or detailed response. It leverages NLTK library to do text processing 
-and scikit-learn library to do modeling. 
-
-
-find complete article on Kaggle
-https://www.kaggle.com/rajkumarl/wiki-ir-chatbot 
-""" 
-
 # Create Environment by Importing Libraries
 # To scrape Wikipedia
 from bs4 import BeautifulSoup

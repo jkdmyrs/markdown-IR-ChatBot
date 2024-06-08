@@ -1,8 +1,0 @@
-python
-numpy
-bs4
-requests
-nltk
-string
-sklearn
-time
