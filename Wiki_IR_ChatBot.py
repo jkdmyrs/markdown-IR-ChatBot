@@ -16,6 +16,10 @@ import numpy as np
 # to have sleep option
 from time import sleep 
 
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+
 # Create a ChatBot Class
 # A chatbot class that can perform information retrieval (IR) 
 # from Wikipedia, make coversations with human users based on the retrieved data!
